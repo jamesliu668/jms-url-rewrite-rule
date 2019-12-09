@@ -1,6 +1,10 @@
 # JMS URL Rewrite Rule
 
 It is a WordPress plugin which is also tracked in WordPress svn repository.
+如果WordPress中已经存在了大量的Permalink，并且想要把Permalink修改为新的格式，可以使用本插件为所有已经存在的Permalink创建urlrewrite的规则。节省了我们一条一条手写的时间。
+
+注意：
+测试发现，对于WordPress来说，如果改变了Permalink的格式，应该是自动向后兼容的。仍然待确认。
 
 ## Keep SVN Pure
 
